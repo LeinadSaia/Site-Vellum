@@ -26,9 +26,9 @@ export function Hero() {
 
       <div className="container mx-auto px-4 flex flex-col items-center text-center space-y-8 z-10">
         <div className="space-y-4 md:space-y-6 flex flex-col items-center">
-          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight flex flex-col items-center sm:block">
-            <span className="mr-3">Domine sua</span>
-            <span className="relative inline-flex h-[1.1em] w-[280px] md:w-[400px] overflow-hidden align-bottom">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight flex flex-wrap justify-center items-center gap-x-3 gap-y-2 md:gap-x-4">
+            <span>Domine sua</span>
+            <span className="relative flex justify-center items-center h-[1.2em] w-[220px] md:w-[320px] lg:w-[380px] overflow-hidden">
               <AnimatePresence mode="popLayout">
                 <motion.span
                   key={index}
@@ -39,13 +39,13 @@ export function Hero() {
                     duration: 0.8, 
                     ease: [0.16, 1, 0.3, 1] 
                   }}
-                  className="absolute left-0 text-primary bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-400 w-full text-center sm:text-left"
+                  className="absolute text-primary bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-400 text-center"
                 >
                   {words[index]}
                 </motion.span>
               </AnimatePresence>
             </span>
-            <span className="mt-2 sm:mt-0 sm:ml-2 block sm:inline">em inglês técnico</span>
+            <span>em inglês técnico</span>
           </h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
