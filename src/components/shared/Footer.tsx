@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Github, Twitter, Linkedin } from 'lucide-react';
+import { Globe, Mail, MessageCircle } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -16,16 +16,16 @@ export function Footer() {
             </p>
             <div className="flex gap-4 pt-2">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
-                <span className="sr-only">Twitter</span>
+                <MessageCircle className="w-5 h-5" />
+                <span className="sr-only">Comunidade</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Github className="w-5 h-5" />
-                <span className="sr-only">GitHub</span>
+                <Globe className="w-5 h-5" />
+                <span className="sr-only">Web</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
-                <span className="sr-only">LinkedIn</span>
+                <Mail className="w-5 h-5" />
+                <span className="sr-only">Contato</span>
               </a>
             </div>
           </div>
