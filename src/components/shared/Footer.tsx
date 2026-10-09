@@ -60,7 +60,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Vellum. Todos os direitos reservados.</p>
+          <p>© 2026 Vellum. Todos os direitos reservados.</p>
           <div className="flex items-center gap-2">
             <span>Construído com</span>
             <span className="text-red-500">♥</span>
