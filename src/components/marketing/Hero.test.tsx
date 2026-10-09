@@ -4,11 +4,9 @@ import { Hero } from './Hero';
 describe('Hero Component', () => {
   it('renders title words correctly', () => {
     render(<Hero />);
-    expect(screen.getByText('Domine')).toBeInTheDocument();
-    expect(screen.getByText('qualquer')).toBeInTheDocument();
-    expect(screen.getByText('idioma')).toBeInTheDocument();
-    expect(screen.getByText('com')).toBeInTheDocument();
-    expect(screen.getByText('IA')).toBeInTheDocument();
+    expect(screen.getByText('Domine sua')).toBeInTheDocument();
+    expect(screen.getByText('fluência')).toBeInTheDocument();
+    expect(screen.getByText('em inglês técnico')).toBeInTheDocument();
   });
 
   it('renders subtitle correctly', () => {
